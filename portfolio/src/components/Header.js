@@ -12,9 +12,9 @@ const Header = () => {
   return (
     <div className=" fixed w-full h-[80px] flex justify-between items-center px-8 bg-gradient-to-l from-blue-900 to-purple-700 text-gray-300">
       <div className="logo font-bold text-2xl">
-        <a href="../index.js">
+        <Link to="home" smooth={true} duration={500}>
           Bilal <span className="font-medium">.Va</span>
-        </a>
+        </Link>
       </div>
       {/* menu */}
 
