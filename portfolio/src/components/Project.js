@@ -7,6 +7,7 @@ import domtwo from "../proimg/bankist2.png";
 import oop from "../proimg/mapty.png";
 import tailwind from "../proimg/tailwind.png";
 import wptbill from "../proimg/wptbill.png";
+import weatherapp from "../proimg/weatherapp.png"
 
 const Projects = () => {
   return (
@@ -223,6 +224,35 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+          
+          {/* Grid Item  React weather*/}
+          <div
+            style={{ backgroundImage: `url(${weatherapp})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                React Weather App Project 
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://bilalgit98.github.io/ReactWeatherApp/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/bilalgit98/ReactWeatherApp">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>
